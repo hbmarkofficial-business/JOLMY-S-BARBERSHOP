@@ -12,22 +12,22 @@ const Index = () => {
     <>
       <Helmet>
         {/* Titel & Meta Description */}
-        <title>Barbershop Prenzlauer Berg | The Gentleman's Cut</title>
+        <title>Barbershop Augsburg | JOLMY'S BARBERSHOP</title>
         <meta
           name="description"
-          content="Besuche unseren Premium Barbershop The Gentleman's Cut in Berlin Prenzlauer Berg für erstklassige Haarschnitte, Bartpflege und individuelle Styles. Jetzt Termin buchen!"
+          content="Besuche unseren Premium Barbershop JOLMY'S BARBERSHOP in Augsburg für erstklassige Haarschnitte, Bartpflege und individuelle Styles. Jetzt Termin buchen!"
         />
         <meta
           name="keywords"
-          content="Barbershop, Herrenfriseur, Haarschnitt, Bartpflege, Rasur, Berlin, Prenzlauer Berg"
+          content="Barbershop, Herrenfriseur, Haarschnitt, Bartpflege, Rasur, Augsburg"
         />
         <link rel="canonical" href="https://gentlemanscut.de" />
 
         {/* Open Graph */}
-        <meta property="og:title" content="The Gentleman's Cut | Premium Barbershop Berlin" />
+        <meta property="og:title" content="JOLMY'S BARBERSHOP | Premium Barbershop Augsburg" />
         <meta
           property="og:description"
-          content="Erstklassige Haarschnitte und Bartpflege für den modernen Gentleman in Berlin Prenzlauer Berg."
+          content="Erstklassige Haarschnitte und Bartpflege für den modernen Gentleman in Augsburg bei JOLMY'S BARBERSHOP."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://gentlemanscut.de" />
@@ -35,7 +35,7 @@ const Index = () => {
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="The Gentleman's Cut | Premium Barbershop Berlin" />
+        <meta name="twitter:title" content="JOLMY'S BARBERSHOP | Premium Barbershop Augsburg" />
         <meta
           name="twitter:description"
           content="Erleben Sie erstklassige Haarschnitte und Bartpflege für den modernen Gentleman."
@@ -47,28 +47,28 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Barbershop",
-            "name": "The Gentleman's Cut",
+            "name": "JOLMY'S BARBERSHOP",
             "image": "https://gentlemanscut.de/images/logo.png",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Straße 12",
-              "addressLocality": "Berlin",
-              "postalCode": "10115",
+              "streetAddress": "Waterloostraße 9",
+              "addressLocality": "Augsburg",
+              "postalCode": "86165",
               "addressCountry": "DE"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "52.5200",
-              "longitude": "13.4050"
+              "latitude": "48.3705",
+              "longitude": "10.8978"
             },
             "url": "https://gentlemanscut.de",
-            "telephone": "+49 30 1234567",
-            "openingHours": "Mo-Fr 09:00-19:00, Sa 09:00-17:00",
+            "telephone": "+49 821 20935313",
+            "openingHours": "Mo-Fr 09:00-18:30, Sa 09:00-15:30",
             "priceRange": "€€",
             "servesCuisine": "Barbershop Services",
             "sameAs": [
-              "https://www.facebook.com/gentlemanscut",
-              "https://www.instagram.com/gentlemanscut"
+              "https://www.facebook.com/jolmysbarbershop",
+              "https://www.instagram.com/jolmysbarbershop"
             ]
           })}
         </script>
@@ -91,4 +91,3 @@ const Index = () => {
 };
 
 export default Index;
-
